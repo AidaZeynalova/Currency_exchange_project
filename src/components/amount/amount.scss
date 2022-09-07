@@ -1,0 +1,47 @@
+.amount-container {
+    height: 196px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    .input-amount-container {
+        width: 611px;
+        border: 0.5px solid rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+
+        input{
+            width: 511px;
+            height: 53px;
+            background-color: #F2F2F2;
+            border: none;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            outline: none;
+            text-indent: 15px;
+        }
+
+        input:active{
+            border: none;
+            outline:none;
+        }
+
+        .button-rotate {
+            width: 96px;
+            height: 52px;
+            background-color: #FFFFFF;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+
+            .rotate-icon {
+                font-size: 20px;
+                color: #0E57D6;
+            }
+        }
+
+    }
+    
+}
