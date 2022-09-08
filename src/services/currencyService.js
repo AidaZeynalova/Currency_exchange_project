@@ -1,7 +1,7 @@
 const currencyService = () => {
 
     var myHeaders = new Headers();
-    myHeaders.append("apikey", "RWdzWnHpE8OtKbCnzN3cmS30fSUbOcCf");
+    myHeaders.append("apikey", "irDi25u0HtLj9j1JTTFxkCX3AtMsa2VB");
 
     var requestOptions = {
         method: 'GET',
